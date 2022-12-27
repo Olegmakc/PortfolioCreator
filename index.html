@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221227120233">
+
+	<title>Portfolio Creator</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper">
+		<div class="header__container">
+			<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" data-goto="#about" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="#" data-goto="#services" class="menu__link">Services</a></li>
+						<li class="menu__item"><a href="#" data-goto="#projects" class="menu__link">Projects</a></li>
+						<li class="menu__item"><a href="#" data-goto="#blog" class="menu__link">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__actions">
+				<button type="button" class="header__button button button_with-arrow" aria-label="Book a call">Book a call</button>
+				<button type="button" class="header__icon icon-menu"><span></span></button>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="page__intro intro-section">
+				<div class="intro-section__container">
+					<div class="intro-section__content">
+						<h1 class="intro-section__title"><span>I design products</span> that delight and inspire people.</h1>
+						<div class="intro-section__text">
+							<p>Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.</p>
+						</div>
+						<div class="intro-section__actions">
+							<button type="button" class="intro-section__button button">Book a call</button>
+							<a href="" class="intro-section__button button button_with-arrow">Download CV</a>
+						</div>
+					</div>
+					<div class="intro-section__photo">
+						<picture><source srcset="img/into-image.webp" type="image/webp"><img src="img/into-image.jpg" alt="Jake product designer"></picture>
+					</div>
+				</div>
+			</section>
+			<div class="page__partners partners">
+				<div data-animate="0.7,false" class="partners__container">
+					<div class="partners__label">Trusted by</div>
+					<div class="partners__items">
+						<div class="partners__item">
+							<picture><source srcset="img/partners/01.webp" type="image/webp"><img src="img/partners/01.png" alt="Partner"></picture>
+						</div>
+						<div class="partners__item">
+							<picture><source srcset="img/partners/02.webp" type="image/webp"><img src="img/partners/02.png" alt="Partner"></picture>
+						</div>
+						<div class="partners__item">
+							<picture><source srcset="img/partners/03.webp" type="image/webp"><img src="img/partners/03.png" alt="Partner"></picture>
+						</div>
+						<div class="partners__item">
+							<picture><source srcset="img/partners/04.webp" type="image/webp"><img src="img/partners/04.png" alt="Partner"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section id="services" class="page__services services">
+				<div class="services__container">
+					<div data-animate="1,false" class="services__header title-block">
+						<p class="title-block__label">Services</p>
+						<h2 class="title-block__item">Design that solves problems, one product at a time.</h2>
+					</div>
+					<div class="services__items">
+						<div data-animate="0.7,false" class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/icons/services_01.svg" alt="Services">
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title">What I can do for you</h3>
+								<div class="item-services__text">
+									<p>Faster, better products that your users love. Here's all the services I provide:</p>
+								</div>
+								<ul class="item-services__offers">
+									<li class="item-services__offer">Design Strategy</li>
+									<li class="item-services__offer">Web and Mobile App Design</li>
+									<li class="item-services__offer">Front-end Development</li>
+								</ul>
+							</div>
+						</div>
+						<div data-animate="0.7,false" class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/icons/services_02.svg" alt="Services">
+
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title">Applications I'm fluent in</h3>
+								<div class="item-services__text">
+									<p>Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.</p>
+								</div>
+								<ul class="item-services__offers">
+									<li class="item-services__offer">Sketch</li>
+									<li class="item-services__offer">Webflow</li>
+									<li class="item-services__offer">Figma</li>
+								</ul>
+							</div>
+
+						</div>
+						<div data-animate="0.7,false" class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/icons/services_03.svg" alt="Services">
+
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title">What you can expect</h3>
+								<div class="item-services__text">
+									<p>I design products that are more than pretty. I make them shippable and usable.</p>
+								</div>
+								<ul class="item-services__offers">
+									<li class="item-services__offer">Clean and functional</li>
+									<li class="item-services__offer">Device and user friendly</li>
+									<li class="item-services__offer">Efficient and maintainable</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="page__projects projects">
+				<div class="projects__container">
+					<div data-animate="0.7,false" class="projects__header">
+						<div class="title-block">
+							<p class="title-block__label title-block__label_clr-purple">PROJECTS</p>
+							<h2 class="title-block__item">I bring results.<br>My clients are proof.</h2>
+						</div>
+						<div class="projects__actions">
+							<a href="" type="button" class="projects__button button">View all projects</a>
+						</div>
+					</div>
+					<div data-animate="0.9,false" class="projects__slider">
+						<div class="projects__swiper">
+							<div class="projects__slide">
+								<div class="projects__item item-projects">
+									<a href="" class="item-projects__image">
+										<picture><source srcset="img/projects/project_01.webp" type="image/webp"><img src="img/projects/project_01.jpg" alt="Soulful Rebrand"></picture>
+									</a>
+									<div class="item-projects__body">
+										<p class="item-projects__label">Branding</p>
+										<h3 class="item-projects__title">
+											<a href="" class="item-projects__title-link">Soulful Rebrand</a>
+										</h3>
+										<a href="#" class="item-projects__button button button_inline button_with-arrow">View Project</a>
+									</div>
+								</div>
+							</div>
+							<div class="projects__slide">
+								<div class="projects__item item-projects">
+									<a href="" class="item-projects__image">
+										<picture><source srcset="img/projects/project_02.webp" type="image/webp"><img src="img/projects/project_02.jpg" alt="Soulful Rebrand"></picture>
+									</a>
+									<div class="item-projects__body">
+										<p class="item-projects__label">Product Design</p>
+										<h3 class="item-projects__title">
+											<a href="" class="item-projects__title-link">Datadash Product design</a>
+										</h3>
+										<a href="#" class="item-projects__button button button_inline button_with-arrow">View Project</a>
+									</div>
+								</div>
+							</div>
+							<div class="projects__slide">
+								<div class="projects__item item-projects">
+									<a href="" class="item-projects__image">
+										<picture><source srcset="img/projects/project_03.webp" type="image/webp"><img src="img/projects/project_03.jpg" alt="Soulful Rebrand"></picture>
+									</a>
+									<div class="item-projects__body">
+										<p class="item-projects__label">Web Design</p>
+										<h3 class="item-projects__title">
+											<a href="" class="item-projects__title-link">Maize Website Design</a>
+										</h3>
+										<a href="#" class="item-projects__button button button_inline button_with-arrow">View Project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projects__controls slider">
+							<button type="button" class="slider__btn slider__btn_bg-white slider__btn_prev _icon-slider-arrow"></button>
+							<button type="button" class="slider__btn slider__btn_bg-white slider__btn_next _icon-slider-arrow"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="blog" class="page__blog blog">
+				<div class="blog__container">
+					<aside data-animate="0.7,true" class="blog__aside">
+						<div class="title-block">
+							<p class="title-block__label title-block__label_clr-orange">Blogs</p>
+							<h2 class="title-block__item title-block__item_crl-white">Latest Blogs</h2>
+						</div>
+						<a href="" class="blog__view-all button button_inline button_with-arrow">View all</a>
+					</aside>
+					<div class="blog__content">
+						<div class="blog__items">
+							<article data-animate="0.7,true" class=" blog-item">
+								<time datetime="2021-04-16" class="blog-item__date">April 16, 2021</time>
+								<span class="blog-item__time">6 mins</span>
+								<h3 class="blog-item__title"><a href="" class="blog-item__title-link">Design tips for designers, that cover everything you need</a></h3>
+								<a href="" class="blog-item__button button button_inline button_with-arrow">Read the article</a>
+							</article>
+							<article data-animate="0.7,true" class=" blog-item">
+								<time datetime="2021-04-16" class="blog-item__date">April 16, 2021</time>
+								<span class="blog-item__time">5 mins</span>
+								<h3 class="blog-item__title"><a href="" class="blog-item__title-link">How to build rapport with your web design clients</a></h3>
+								<a href="" class="blog-item__button button button_inline button_with-arrow">Read the article</a>
+							</article>
+							<article data-animate="0.7,true" class=" blog-item">
+								<time datetime="2021-04-16" class="blog-item__date">April 16, 2021</time>
+								<span class="blog-item__time">5 mins</span>
+								<h3 class="blog-item__title"><a href="" class="blog-item__title-link">Top 6 free website mockup tools 2021</a></h3>
+								<a href="" class="blog-item__button button button_inline button_with-arrow">Read the article</a>
+							</article>
+							<article data-animate="0.7,true" class=" blog-item">
+								<time datetime="2021-04-16" class="blog-item__date">April 16, 2021</time>
+								<span class="blog-item__time">7 mins</span>
+								<h3 class="blog-item__title"><a href="" class="blog-item__title-link">Logo design trends to avoid in 2021</a></h3>
+								<a href="" class="blog-item__button button button_inline button_with-arrow">Read the article</a>
+							</article>
+							<article data-animate="0.7,true" class=" blog-item">
+								<time datetime="2021-04-16" class="blog-item__date">April 16, 2021</time>
+								<span class="blog-item__time">7 mins</span>
+								<h3 class="blog-item__title"><a href="" class="blog-item__title-link">22 best UI design tools</a></h3>
+								<a href="" class="blog-item__button button button_inline button_with-arrow">Read the article</a>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="page__about about">
+				<div class="about__container">
+					<div data-animate="0.9,false" class="about__header">
+						<div class="title-block">
+							<p class="title-block__label">Product Designer</p>
+							<h2 class="title-block__item">That's me!</h2>
+						</div>
+						<div class="about__text">
+							<p>Over the past 12 years, I've worked with a diverse range of clients, from startups to Fortune 500 companies. I love crafting interfaces that delight users and help businesses grow.</p>
+						</div>
+					</div>
+					<div data-animate="0.9,true" class="about__gallery gallery">
+						<div class="gallery__item gallery__item_big">
+							<picture><source srcset="img/about-gallery/gallery_01.webp" type="image/webp"><img src="img/about-gallery/gallery_01.jpg" alt="Gallery"></picture>
+						</div>
+						<div class="gallery__item gallery__item_big">
+							<picture><source srcset="img/about-gallery/gallery_02.webp" type="image/webp"><img src="img/about-gallery/gallery_02.jpg" alt="Gallery"></picture>
+						</div>
+						<div class="gallery__item">
+							<picture><source srcset="img/about-gallery/gallery_03.webp" type="image/webp"><img src="img/about-gallery/gallery_03.jpg" alt="Gallery"></picture>
+						</div>
+						<div class="gallery__item">
+							<picture><source srcset="img/about-gallery/gallery_04.webp" type="image/webp"><img src="img/about-gallery/gallery_04.jpg" alt="Gallery"></picture>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__experience experience">
+				<div class="experience__container">
+					<div data-animate="0.9,false" class="experience__column">
+						<h3 class="experience__title">📚 Education</h3>
+						<div class="experience__items">
+							<div class="experience__item item-experience">
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">Stanford University</a>
+									</h4>
+									<div class="item-experience__text">MSc (Human Computer Interaction)</div>
+								</div>
+								<div class="item-experience__date">• 2013-2015</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+							<div class="experience__item item-experience">
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">MIT Summer School</a>
+									</h4>
+									<div class="item-experience__text">UX Training Bootcamp</div>
+								</div>
+								<div class="item-experience__date">• 2013-2014</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+							<div class="experience__item item-experience">
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">California State University</a>
+									</h4>
+									<div class="item-experience__text">BSc in Software Engineering</div>
+								</div>
+								<div class="item-experience__date">• 2009-2012</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+						</div>
+					</div>
+					<div data-animate="0.9,false" class="experience__column">
+						<h3 class="experience__title">💼 Work Experience</h3>
+						<div class="experience__items">
+							<div class="experience__item item-experience">
+								<div class="item-experience__icon" style="background-color: #FFB4E9;">
+									<img src="img/icons/roket.svg" alt="Icon">
+								</div>
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">SpaceFleet</a>
+									</h4>
+									<div class="item-experience__text">Senior Product Designer</div>
+								</div>
+								<div class="item-experience__date">• April 2019 - Current</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+							<div class="experience__item item-experience">
+								<div class="item-experience__icon" style="background-color: #A5BEFF;">
+									<img src="img/icons/music.svg" alt="Icon">
+								</div>
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">MusicMash</a>
+									</h4>
+									<div class="item-experience__text">Information Architect</div>
+								</div>
+								<div class="item-experience__date">• April 2016 - May 2017</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+							<div class="experience__item item-experience">
+								<div class="item-experience__icon" style="background-color: #FFC960;">
+									<img src="img/icons/king.svg" alt="Icon">
+								</div>
+								<div class="item-experience__body">
+									<h4 class="item-experience__title">
+										<a href="" class="item-experience__title-link">Kingdom</a>
+									</h4>
+									<div class="item-experience__text">UI Designer</div>
+								</div>
+								<div class="item-experience__date">• April 2016 - May 2017</div>
+								<a href="#" class="item-experience__arrow-link _icon-arrow"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<div data-animate="0.8,true" class="testimonials__header title-block">
+						<p class="title-block__label title-block__label_clr-blue">Testimonials</p>
+						<h2 class="title-block__item">Word on the street</h2>
+					</div>
+					<div data-animate="0.8,false" class="testimonials__slider">
+						<div class="testimonials__swiper">
+							<div class="testimonials__slide">
+								<div class="testimonials__item item-testimonial">
+									<div data-swiper-parallax-opacity="0.1" data-swiper-parallax-scale="0.5" data-swiper-parallax="-10%" class="item-testimonial__image">
+										<picture><source srcset="img/testimonials/testimonial_01.webp" type="image/webp"><img src="img/testimonials/testimonial_01.jpg" alt="John Frankin"></picture>
+									</div>
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__review-text">
+											<p data-swiper-parallax="-30%" data-swiper-parallax-duration="800">
+												Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.
+											</p>
+										</div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__name"><span>John Frankin</span></div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__occupation"><span>Founder, Double Bunch</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__slide">
+								<div class="testimonials__item item-testimonial">
+									<div data-swiper-parallax-opacity="0.1" data-swiper-parallax-scale="0.5" data-swiper-parallax="-10%" class="item-testimonial__image">
+										<picture><source srcset="img/testimonials/testimonial_01.webp" type="image/webp"><img src="img/testimonials/testimonial_01.jpg" alt="John Frankin"></picture>
+									</div>
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__review-text">
+											<p data-swiper-parallax="-30%" data-swiper-parallax-duration="800">
+												Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.
+											</p>
+											<p data-swiper-parallax="-35%" data-swiper-parallax-duration="900">
+												Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.
+											</p>
+										</div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__name"><span>John Frankin</span></div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__occupation"><span>Founder, Double Bunch</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__slide">
+								<div class="testimonials__item item-testimonial">
+									<div data-swiper-parallax-opacity="0.1" data-swiper-parallax-scale="0.5" data-swiper-parallax="-10%" class="item-testimonial__image">
+										<picture><source srcset="img/into-image.webp" type="image/webp"><img src="img/into-image.jpg" alt="John Frankin"></picture>
+									</div>
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__review-text">
+											<p data-swiper-parallax="-30%" data-swiper-parallax-duration="800">
+												Jade helped us build a software so intuitive that it didn't need a walkthrough.
+											</p>
+										</div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__name"><span>John Frankin</span></div>
+										<div data-swiper-parallax="-20%" data-swiper-parallax-opacity="0.1" class="item-testimonial__occupation"><span>Founder, Double Bunch</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__controls slider">
+							<button type="button" class="slider__btn slider__btn_prev _icon-slider-arrow"></button>
+							<button type="button" class="slider__btn slider__btn_next _icon-slider-arrow"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__faq faq-section">
+				<div class="faq-section__container">
+					<div data-animate="0.8,false" class="faq-section__header title-block">
+						<p class="title-block__label title-block__label_clr-orange">FAQ</p>
+						<h2 class="title-block__item title-block__item_crl-white">Frequently asked questions</h2>
+					</div>
+					<div data-spollers class="faq-section__items item-faq">
+						<div data-animate="0.8,false" class="item-faq__column">
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What type of projects do you take on?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error nihil dolorem dolore nam quos eum voluptates odio officiis molestias.
+										</p>
+										<p>
+											Delectus blanditiis obcaecati officiis inventore natus, eaque fugit cum quisquam nostrum reiciendis nisi reprehenderit, dolorum quas exercitationem rerum. Magni molestias debitis ratione.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What is your hourly rate?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error nihil dolorem dolore nam quos eum voluptates odio officiis molestias.
+										</p>
+										<p>
+											Delectus blanditiis obcaecati officiis inventore natus, eaque fugit cum quisquam nostrum reiciendis nisi reprehenderit, dolorum quas exercitationem rerum. Magni molestias debitis ratione.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What time-zone do you work in?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error nihil dolorem dolore nam quos eum voluptates odio officiis molestias.
+										</p>
+										<p>
+											Delectus blanditiis obcaecati officiis inventore natus, eaque fugit cum quisquam nostrum reiciendis nisi reprehenderit, dolorum quas exercitationem rerum. Magni molestias debitis ratione.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What is the typical timeline for a project?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error nihil dolorem dolore nam quos eum voluptates odio officiis molestias.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.8,false" class="item-faq__column">
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">How do you charge for projects ?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus blanditiis obcaecati officiis inventore natus, eaque fugit cum quisquam nostrum reiciendis nisi reprehenderit, dolorum quas exercitationem rerum. Magni molestias debitis ratione.</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What does your design process look like?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt eligendi commodi magni quibusdam ratione.</p>
+									</div>
+								</div>
+
+
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What metrics do you use to measure success?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, laboriosam.</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-faq__row">
+								<button data-spoller type="button" class="item-faq__title _icon-slider-arrow">What if I need help after the project is complete?</button>
+								<div class="item-faq__body">
+									<div class="item-faq__text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus blanditiis obcaecati officiis inventore natus, eaque fugit cum quisquam nostrum reiciendis nisi reprehenderit, dolorum quas exercitationem rerum. Magni molestias debitis ratione.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div data-animate="0.8,false" class="footer__header title-block">
+			<h2 class="title-block__item title-block__item_crl-white">Ready to make something kickass?<br> <span>Let's get on a call.</span></h2>
+		</div>
+		<div class="footer__main">
+			<div class="footer__column">
+				<a href="#" class="footer__logo"><img src="img/footer-logo.svg" alt="Logo"></a>
+				<div class="footer__location">4353 Delaware Avenue, San Francisco, USA</div>
+				<a href="mailto:hi@thefolio.com" class="footer__mail _icon-mail">hi@thefolio.com</a>
+			</div>
+			<div class="footer__column">
+				<div class="footer__menu footer-menu">
+					<div class="footer-menu__column">
+						<ul class="footer-menu__list">
+							<li><a href="" class="footer-menu__link">About</a></li>
+							<li><a href="" class="footer-menu__link">Contact</a></li>
+							<li><a href="" class="footer-menu__link">Dribbble</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu__column">
+						<ul class="footer-menu__list">
+							<li><a href="" class="footer-menu__link">Services</a></li>
+							<li><a href="" class="footer-menu__link">Blog</a></li>
+							<li><a href="" class="footer-menu__link">Instagram</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu__column">
+						<ul class="footer-menu__list">
+							<li><a href="" class="footer-menu__link">Experience</a></li>
+							<li><a href="" class="footer-menu__link">Projects</a></li>
+							<li><a href="" class="footer-menu__link">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copy">
+			<p>© All rights reserved. Sumit Hegde. Powered by Webflow / Image License Info / Instructions / Changelog / Style Guide</p>
+		</div>
+	</div>
+</footer>
+	</div>
+	
+	<script src="js/app.min.js?_v=20221227120233"></script>
+</body>
+
+</html>
